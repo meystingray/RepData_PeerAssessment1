@@ -9,7 +9,7 @@ We begin our analysis of Personal Movement Activity by reading the data into R.
 
 ```{r, echo = TRUE}
 oldDir <- getwd()
-setwd("C:/Users/seanco/Desktop/DataScienceCoursera/Reproducible_Research/Project1/RepData_PeerAssessment1/activity")
+setwd("C:/Users/seanco/Desktop/DataScienceCoursera/Reproducible_Research/RepData_PeerAssessment1/activity")
 theData <- read.csv("activity.csv")
 uniqueDates <- unique(theData$date)
 
